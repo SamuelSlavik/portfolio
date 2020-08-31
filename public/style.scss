@@ -1,0 +1,14 @@
+@import "style/variables";
+
+@import "style/default";
+
+//components
+@import "style/components/wallpaper";
+@import "style/components/navigation";
+@import "style/components/sections";
+@import "style/components/buttons";
+@import "style/components/overlay";
+
+@import "style/pages/aboutMe";
+@import "style/pages/portfolio";
+@import "style/pages/contact";

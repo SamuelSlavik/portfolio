@@ -1,0 +1,47 @@
+.navigation {
+    width: 100%;
+    background-color: $darkBlue1;
+    padding: 5% 15% 0 15%;
+    color: $white1;
+    height: max-content;
+    display: flex;
+    @media all and (max-width: $break-1){
+        padding: 5% 10% 0 1 0%;
+        text-align: center;
+    }
+}
+.navLink {
+    display: block;
+    box-sizing: border-box;
+    color: $white1;
+    font-size: 1.3em;
+    padding: 1% 5% 1% 5%;
+
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    @media all and (max-width: $break-1){
+        display: none;
+    }
+}
+.navLink:hover {
+    border-bottom-style: solid;
+    border-color: $white1;
+    border-width: 6px;
+    color: $pink1;
+}
+.activeNavLink {
+    border-bottom-style: solid;
+    border-color: $pink1;
+    border-width: 6px;
+}
+.mobileDisplayNavLink {
+    display: none;
+    @media all and (max-width: $break-1){
+        display: block !important;
+        width: 33.333%;
+        text-align: center;
+    }
+}

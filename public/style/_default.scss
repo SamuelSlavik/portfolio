@@ -1,0 +1,34 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+    @media all and (max-width: $break-1){
+        font-size: 0.8em;
+    }
+    @media all and (max-width: $break-2){
+        font-size: 0.9em;
+    }
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: $darkBlue2;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+.text--pink {
+    color: $pink1;
+}
+p {
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+.align-right {
+    text-align: right !important;
+}

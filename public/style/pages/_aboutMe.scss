@@ -1,0 +1,69 @@
+.aboutMePersonal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    @media all and (max-width: $break-1){
+        display: block;
+    }
+}
+.aboutMePersonal img {
+    width: 49%;
+    padding: 0 10% 0 10%;
+    @media all and (max-width: $break-1){
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+.aboutMePersonal .aboutMePersonalContent {
+    width: 49%;
+    font-size: 1.2em;
+    margin: auto;
+    @media all and (max-width: $break-1){
+        font-size: 1em;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+.aboutMeSkillsHeadline {
+    width: 100%;
+    text-align: left;
+    padding: 2% 0 2% 0;
+    font-size: 2em;
+}
+.aboutMeSkillsContentWrapper {
+    display: flex;
+    justify-content: space-between;
+    @media all and (max-width: $break-1){
+        display: block;
+    }
+}
+.aboutMeSkillsContent {
+    width: 60%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    @media all and (max-width: $break-1){
+        width: 100%;
+    }
+}
+.aboutMeSkillsContentWrapper img {
+    width: 25%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    @media all and (max-width: $break-1){
+        display: none;
+    }
+}
+.aboutMeSkillsSection {
+    margin-bottom: 10%;
+}
+.mobileDisplayImage {
+    display: none;
+    width: 25%;
+    margin-left: 35%;
+    @media all and (max-width: $break-1){
+        display: block !important;
+    }
+}

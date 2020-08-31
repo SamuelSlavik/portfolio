@@ -1,0 +1,21 @@
+.sectionHeader {
+    width: 100%;
+    padding: 4% 15% 4% 15%;
+    background-color: $darkBlue2;
+    color: $white1;
+    text-align: center;
+    //font-size: 1.8em;
+}
+.sectionContent {
+    padding: 4% 15% 4% 15%;
+}
+.sectionContent--dark {
+    background-color: $darkBlue2;
+    color: $white1;
+    padding-top: 0;
+    padding-bottom: 10%;
+}
+
+.sectionHeader h2 {
+    font-size: 2.5em;
+}

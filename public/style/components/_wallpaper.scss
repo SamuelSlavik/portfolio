@@ -1,0 +1,50 @@
+.wallpaper {
+    width: 100%;
+    height: 100vh;
+    background-color: $darkBlue1;
+    color: $white1;
+    display: flex;
+    @media all and (max-width: $break-1){
+        display: none;
+    }
+    @media all and (max-width: $break-2){
+        display: none;
+    }
+}
+.wallpaperCanvas {
+    position: absolute;
+    z-index: 1;
+    height: 100% !important;
+    width: 100% !important;
+    @media all and (max-width: $break-1){
+       display: none;
+    }
+    @media all and (max-width: $break-2){
+        display: none;
+    }
+}
+.wallpaperContent {
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+}
+.wallpaperContent h1 {
+    font-size: 2.5em;
+}
+.wallpaperAnchor {
+    border-bottom-style: solid;
+    border-color: $pink1;
+    padding: 1%;
+    font-size: 1.3em;
+
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.wallpaperAnchor:hover {
+    color: $pink1;
+    cursor: pointer;
+    border-color: $white1;
+}
