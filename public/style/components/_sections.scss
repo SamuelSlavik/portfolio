@@ -8,14 +8,24 @@
 }
 .sectionContent {
     padding: 4% 15% 4% 15%;
+    @media all and (max-width: $break-1){
+        padding: 4% 8% 4% 8%;
+    }
 }
 .sectionContent--dark {
     background-color: $darkBlue2;
     color: $white1;
     padding-top: 0;
-    padding-bottom: 10%;
 }
 
 .sectionHeader h2 {
-    font-size: 2.5em;
+    font-size: 2em;
+    @media all and (max-width: $break-1){
+        font-size: 1.8em;
+    }
+}
+.sectionContent--light {
+    background-color: $white1;
+    color: $defaultColor;
+    padding-top: 4%;
 }

@@ -18,6 +18,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: $white1;
 }
 a:focus {
     outline: none;
@@ -25,10 +26,39 @@ a:focus {
 .text--pink {
     color: $pink1;
 }
+.text--blue {
+    color: $blue1;
+}
+.text--bold {
+    font-weight: bold;
+}
 p {
     line-height: 1.5em;
     letter-spacing: 1px;
 }
 .align-right {
     text-align: right !important;
+}
+.anchor {
+    border-bottom-style: solid;
+    border-color: $pink1;
+    padding: 3px;
+    font-size: 1.2em;
+    color: $white1;
+
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.anchor:hover {
+    color: $pink1;
+    //cursor: pointer;
+    border-color: $white1;
+}
+.headline--medium {
+}
+.h2--MarginTop {
+    margin-top: 0;
 }

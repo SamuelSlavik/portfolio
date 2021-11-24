@@ -20,7 +20,7 @@ class Navigation extends Component{
                     About Me
                 </NavLink>
                 <NavLink
-                    exact
+                    //exact
                     className={"navLink"}
                     to={"/portfolio"}
                     activeClassName={"activeNavLink"}

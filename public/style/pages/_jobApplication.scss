@@ -1,0 +1,43 @@
+.lightHeading {
+    color: $pink1;
+}
+.cvTable {
+    width: 100%;
+}
+.cvTable tr {
+    width: 100%;
+    @media all and (max-width: $break-1){
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+}
+.mobileTr {
+    display: table-row;
+    @media all and (max-width: $break-1){
+        display: none !important;
+    }
+}
+.mobileTrHr {
+    display: none;
+    @media all and (max-width: $break-1){
+        display: block;
+    }
+}
+.cvTable td {
+    padding: 0.5%;
+}
+.cvTable .question {
+    width: 20%;
+    @media all and (max-width: $break-1){
+        width: 100%;
+        font-weight: bold !important;
+    }
+}
+.cvTable .answer {
+    width: 80%;
+    @media all and (max-width: $break-1){
+        width: 100%;
+        font-weight: normal !important;
+    }
+}

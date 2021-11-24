@@ -2,65 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07d5ac3a-44c4-47f7-8ae1-96439c9124f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/samue.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/project-kocopywriter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/webikon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/weblogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/loadingPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/_default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/components/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/components/_overlay.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/components/_sections.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/components/_wallpaper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/pages/_aboutMe.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/pages/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style/pages/_portfolio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Wallpaper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/aboutMe/BackEndSKills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/aboutMe/FrontEndSkills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/aboutMe/PersonalInformation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/ContactInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/ContactSingleIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio/SingleProject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Weblogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/back-end.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/front-end.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/project-aluCasting.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/project-colloquium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/project-kocopywriter-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/project-kocopywriter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/AboutMe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Portfolio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/style/pages/_caseStudies.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/style/pages/_jobApplication.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact/ContactProfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/BodyBends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/CaseStudyParts/CaseStudyHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/Javorina.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/Kocopywriter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/OzBylinky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/Seminars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/bodybends/project-bodybends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/javorina/project-javorina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kocopywriter/kocopywriter-design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kocopywriter/kocopywriterLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ozbylinky/ozbylinky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/seminars/seminar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/seminars/seminarContent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/seminars/seminarFull.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/seminars/seminarProfile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ApplicationLetter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CVen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CoverLetter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/samue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/samue.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/_default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/_default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/components/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/components/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/components/_sections.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/components/_wallpaper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/components/_wallpaper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/pages/_aboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/pages/_aboutMe.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/pages/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/pages/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/pages/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/pages/_portfolio.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aboutMe/BackEndSKills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aboutMe/BackEndSKills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactSingleIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactSingleIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/SingleProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/SingleProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/project-kocopywriter-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/kocopywriter/project-kocopywriter-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/project-kocopywriter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/kocopywriter/project-kocopywriter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +60,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1bklISptZB1kgeSespPtGjIhBEv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -82,26 +87,38 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/bodybends" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="file.status.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\Desktop\React JS\portfolio\src\images\bodybends" />
+      <recent name="C:\Users\samue\Desktop\React JS\portfolio\src\images\ozbylinky" />
+      <recent name="C:\Users\samue\Desktop\React JS\portfolio\src\images\seminars" />
+      <recent name="C:\Users\samue\Desktop\React JS\portfolio\src\images\kocopywriter" />
       <recent name="C:\Users\samue\Desktop\React JS\portfolio\public\js" />
-      <recent name="C:\Users\samue\Desktop\React JS\portfolio\src\images" />
-      <recent name="C:\Users\samue\Desktop\React JS\portfolio\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\Desktop\React JS\portfolio\src\components\portfolio" />
+      <recent name="C:\Users\samue\Desktop\React JS\portfolio\src\images\javorina" />
+      <recent name="C:\Users\samue\Desktop\React JS\portfolio\src\images\kocopywriter" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -110,8 +127,10 @@
       <command value="$ npm install --save react-router-dom" />
       <command value="terminal" />
       <command value="npm install --save react-router-dom" />
-      <command value="npm run build" />
+      <command value="npm install --save react-router-hash-link" />
+      <command value="npm install react-router-hash-link" />
       <command value="npm start" />
+      <command value="npm run build" />
     </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -144,6 +163,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -167,92 +187,101 @@
       <workItem from="1597138693251" duration="242000" />
       <workItem from="1597423769723" duration="405000" />
       <workItem from="1598125616008" duration="883000" />
-      <workItem from="1598855689933" duration="1423000" />
+      <workItem from="1598855689933" duration="1775000" />
+      <workItem from="1598864438821" duration="4989000" />
+      <workItem from="1598951312137" duration="703000" />
+      <workItem from="1598965607332" duration="8301000" />
+      <workItem from="1599766014519" duration="1699000" />
+      <workItem from="1599770723183" duration="472000" />
+      <workItem from="1600533611690" duration="5939000" />
+      <workItem from="1600628649137" duration="222000" />
+      <workItem from="1600698734213" duration="6269000" />
+      <workItem from="1600846378919" duration="148000" />
+      <workItem from="1601059384307" duration="567000" />
+      <workItem from="1601232591207" duration="687000" />
+      <workItem from="1601304959256" duration="9706000" />
+      <workItem from="1601483552947" duration="8204000" />
+      <workItem from="1601571284570" duration="640000" />
+      <workItem from="1601576953688" duration="4737000" />
+      <workItem from="1601820884559" duration="16000" />
+      <workItem from="1601995028347" duration="8527000" />
+      <workItem from="1602051695862" duration="1946000" />
+      <workItem from="1606221634661" duration="1058000" />
+      <workItem from="1606288478492" duration="2145000" />
+      <workItem from="1606753154356" duration="1473000" />
+      <workItem from="1607526541383" duration="1115000" />
+      <workItem from="1610982652491" duration="1364000" />
+      <workItem from="1612781091787" duration="650000" />
+      <workItem from="1612790884755" duration="905000" />
+      <workItem from="1612807772520" duration="2785000" />
+      <workItem from="1613049421816" duration="1218000" />
+      <workItem from="1614605378300" duration="672000" />
+      <workItem from="1615208514734" duration="3199000" />
+      <workItem from="1615748086344" duration="139000" />
+      <workItem from="1615799936464" duration="1546000" />
+      <workItem from="1616003342591" duration="53000" />
+      <workItem from="1617007060909" duration="21000" />
+      <workItem from="1617717238285" duration="1561000" />
+      <workItem from="1618843316953" duration="1147000" />
+      <workItem from="1621953836843" duration="9000" />
+      <workItem from="1625601399886" duration="3170000" />
+      <workItem from="1626205303658" duration="1699000" />
+      <workItem from="1626767044863" duration="22000" />
+      <workItem from="1626770537145" duration="49000" />
+      <workItem from="1626771355719" duration="51000" />
+      <workItem from="1627388677751" duration="7000" />
+      <workItem from="1627392963187" duration="1413000" />
+      <workItem from="1628669424017" duration="161000" />
+      <workItem from="1629976065304" duration="6000" />
+      <workItem from="1629976161593" duration="2230000" />
+      <workItem from="1630436086259" duration="1814000" />
+      <workItem from="1636057260721" duration="64000" />
+      <workItem from="1637420280194" duration="6143000" />
+      <workItem from="1637491529522" duration="2393000" />
+      <workItem from="1637600168226" duration="930000" />
+      <workItem from="1637680200360" duration="4015000" />
     </task>
+    <task id="LOCAL-00001" summary="General commit">
+      <created>1598857195642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598857195642</updated>
+    </task>
+    <task id="LOCAL-00002" summary="General commit">
+      <created>1598857208731</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598857208731</updated>
+    </task>
+    <task id="LOCAL-00003" summary="General commit">
+      <created>1598857373814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598857373814</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="517" y="99" key="#ContactInfo.js" timestamp="1596531005712">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="517" y="99" key="#ContactInfo.js/0.0.1536.824@0.0.1536.824" timestamp="1596531005712" />
-    <state x="556" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596532849872">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="556" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596532849872" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596711792187">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596711792187" />
-    <state x="354" y="0" key="CommitChangelistDialog2" timestamp="1598857207798">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="354" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598857207798" />
-    <state x="179" y="65" key="DiffContextDialog" timestamp="1597424104021">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="179" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1597424104021" />
-    <state x="441" y="184" key="EditFileWatcherDialog" timestamp="1596023873180">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="441" y="184" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1596023873180" />
-    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1598856774772">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598856774772" />
-    <state x="646" y="307" key="Github.ShareDialog" timestamp="1598857104700">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="646" y="307" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1598857104700" />
-    <state width="1537" height="219" key="GridCell.Tab.0.bottom" timestamp="1598856209693">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="219" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598856209693" />
-    <state width="1537" height="219" key="GridCell.Tab.0.center" timestamp="1598856209693">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="219" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598856209693" />
-    <state width="1537" height="219" key="GridCell.Tab.0.left" timestamp="1598856209692">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="219" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598856209692" />
-    <state width="1537" height="219" key="GridCell.Tab.0.right" timestamp="1598856209693">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="219" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598856209693" />
-    <state x="582" y="41" key="RollbackChangesDialog" timestamp="1596531048642">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="582" y="41" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596531048642" />
-    <state x="285" y="55" key="SettingsEditor" timestamp="1596531790105">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="285" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596531790105" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1598857214754">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598857214754" />
-    <state x="592" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598857148581">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="592" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598857148581" />
-    <state x="481" y="138" width="574" height="548" key="find.popup" timestamp="1596026284505">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="481" y="138" width="574" height="548" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596026284505" />
-    <state x="602" y="261" key="git4idea.rebase.GitRebaseDialog" timestamp="1597424010969">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="602" y="261" key="git4idea.rebase.GitRebaseDialog/0.0.1536.824@0.0.1536.824" timestamp="1597424010969" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1598855842220">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598855842220" />
+    <MESSAGE value="General commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="General commit" />
   </component>
 </project>

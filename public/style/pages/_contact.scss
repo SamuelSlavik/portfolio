@@ -3,6 +3,7 @@
     font-family: 'Ubuntu', sans-serif;
     padding: 0 20% 0 20%;
     text-align: right;
+    margin-bottom: 6%;
     @media all and (max-width: $break-1){
         padding: 0 0 0 0;
     }
@@ -13,35 +14,41 @@
 .contactForm input {
     width: 100%;
     margin-bottom: 3%;
-    padding: 2%;
+    padding: 1.5%;
     font-family: 'Ubuntu', sans-serif;
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: solid;
     border-color: $white1;
-    border-width: 6px;
+    border-width: 4px;
     background-color: $darkBlue2;
     color: $white1;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.1em;
 
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    @media all and (max-width: $break-1){
+        margin-bottom: 6%;
+    }
 }
 .contactForm input:focus {
     border-color: $pink1;
     outline: none;
 }
 .contactSubmit {
-    width: 30% !important;
+    width: 20% !important;
     border-color: $pink1 !important;
+    @media all and (max-width: $break-1){
+        width: 30% !important;
+    }
 }
 .contactSubmit:hover {
-    width: 30% !important;
+    width: 20% !important;
     border-color: $white1 !important;
     color: $pink1 !important;
     cursor: pointer;
@@ -50,10 +57,54 @@
     color: $white1;
     text-align: center;
     padding: 4% 0 4% 0;
-    margin-top: 4%;
+    margin-top: 12%;
+    width: 100%;
 }
 .contactIcons {
     width: 100%;
     display: flex;
+    gap: 5%;
+    justify-content: flex-start;
+}
+.contactProfile {
+    width: 100%;
+    margin-bottom: 4%;
+    display: flex;
     justify-content: center;
+    @media all and (max-width: $break-1){
+        display: block;
+    }
+}
+.profileImage {
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    @media all and (max-width: $break-1){
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+}
+.profileContent {
+    width: max-content;
+    padding-left: 8%;
+    margin-top: auto;
+    margin-bottom: auto;
+    @media all and (max-width: $break-1){
+        width: 100%;
+    }
+}
+.profileContentTop {
+    @media all and (max-width: $break-1){
+        display: none;
+    }
+}
+.mobileDisplayProfile {
+    display: none;
+    font-size: 0.9em;
+    @media all and (max-width: $break-1){
+        display: block;
+    }
 }

@@ -3,9 +3,11 @@ import React, {Component} from "react"
 import SingleProject from "../components/portfolio/SingleProject";
 
 // images of single projects
-import kocopywriter from '../images/project-kocopywriter-2.png'
-import colloquium from '../images/project-colloquium.jpg'
-import alucasting from '../images/project-aluCasting.jpg'
+import kocopywriter from '../images/kocopywriter/project-kocopywriter-2.png'
+import seminar from '../images/seminars/seminar.png'
+import ozbylinky from '../images/ozbylinky/ozbylinky.png'
+import javorina from '../images/javorina/project-javorina.png'
+import bodyBends from '../images/bodybends/project-bodybends.png'
 
 class Portfolio extends Component{
     constructor() {
@@ -27,59 +29,33 @@ class Portfolio extends Component{
                 <div className={"sectionContent sectionContent--dark"}>
                     <div className={"portfolioWrapper"}>
                         <SingleProject
-                            headline={"Kocopywriter.cz"}
-                            id={"kocopywriter"}
+                            url={"/portfolio/seminars#navigation"}
                             aos={"fade-right"}
-                            anchorHref={"http://kocopywriter.cz/"}
+                            image={seminar}
+                        />
+                        <SingleProject
+                          url={"/portfolio/bodybends#navigation"}
+                          aos={"fade-left"}
+                          image={bodyBends}
+                        />
+                        <SingleProject
+                            url={"/portfolio/kocopywriter#navigation"}
+                            aos={"fade-right"}
                             image={kocopywriter}
-                            aboutProject={"Portfolio of stuttering Czech copywriter Vojtěch Hulinský"}
-                            servicesProvided={"Front-end development, Web administration"}
-                            technologiesUsed={"JavaScript, JQuery, TypedJS, Ajax, HTML, CSS, Bootstrap"}
-                        />
-                        {/*
-                        <SingleProject
-                            headline={"Colloquiumsk.com"}
-                            id={"colloquium"}
-                            aos={"fade-left"}
-                            anchorHref={"https://colloquiumsk.com/"}
-                            image={colloquium}
-                            aboutProject={"From scratch fully developed custom WordPress theme for a international organisation"}
-                            servicesProvided={"Custom WordPress theme development, Website development, Web administration"}
-                            technologiesUsed={"JavaScript, JQuery, PHP, SQL, CMS WordPress, HTML, CSS"}
                         />
                         <SingleProject
-                            headline={"Alu-casting.cz"}
-                            id={"aluCasting"}
+                          url={"/portfolio/javorina#navigation"}
+                          aos={"fade-left"}
+                          image={javorina}
+                        />
+                        <SingleProject
+                            url={"/portfolio/ozbylinky#navigation"}
                             aos={"fade-right"}
-                            anchorHref={"https://alu-casting.cz/"}
-                            image={alucasting}
-                            aboutProject={"Simple website developed according to the given design with implementation of WordPress CMC system"}
-                            servicesProvided={"Custom WordPress theme development, Website development"}
-                            technologiesUsed={"JavaScript, PHP, SQL, CMS WordPress, HTML, SCSS"}
-                        />*/}
-
-                        {/*
-                        <div className={"portfolioSingle"}>
-                            <div className="container">
-                                <a className="button" href="#popup"><img alt={"project Kopcoywriter.cz"} src={kocopywriter} /></a>
-                                <div className="popup" id="popup">
-                                    <a className="popup__close" href="#!">X</a>
-                                    <div className={"popupInner"}>
-                                        <h2 className={"popupHeadline"}><a href={"http://kocopywriter.cz/"} target={"_blank"}>Kocopywriter.cz</a></h2>
-                                        <img alt={"project Kopcoywriter.cz"} src={kocopywriter} />
-                                        <h3>About project:</h3>
-                                        <p>lorem ipsum</p>
-                                        <h3>Services provided:</h3>
-                                        <p>lorem ipsum</p>
-                                        <h3>Technologies used:</h3>
-                                        <p>lorem ipsum</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>*/}
+                            image={ozbylinky}
+                        />
                     </div>
                     <div className={"sectionHeader"} data-aos="zoom-in" data-aos-offset="50">
-                        <h2 data-aos="fade-up">Currently under <span className={"text--pink"}>construction</span></h2>
+                        <p data-aos="fade-up">Currently under <span className={"text--pink"}>construction</span></p>
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import React, {Component} from "react"
 
 import ContactForm from "../components/contact/ContactForm";
 import ContactInfo from "../components/contact/ContactInfo";
+import ContactProfile from "../components/contact/ContactProfile";
 
 class Contact extends Component{
     constructor() {
@@ -18,7 +19,7 @@ class Contact extends Component{
                 </div>
                 <div className={"sectionContent sectionContent--dark"}>
                     <ContactForm/>
-                    <ContactInfo/>
+                    <ContactProfile/>
                 </div>
             </div>
         )

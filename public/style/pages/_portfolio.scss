@@ -1,14 +1,16 @@
 .portfolioWrapper {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 2%;
     flex-wrap: wrap;
     //padding-bottom: 10%;
 }
 .portfolioSingle {
-    width: 47.5%;
-    margin-bottom: 5%;
+    width: 32%;
+    margin-bottom: 2%;
     display: block;
+    align-self: flex-start;
     @media all and (max-width: $break-1){
         width: 80%;
         margin-left: 10%;
@@ -20,7 +22,7 @@
     height: auto;
     display: block;
     border-bottom-style: solid;
-    border-width: 6px;
+    border-width: 4px;
     border-color: $white1;
 
     -webkit-transition: 0.5s;
@@ -31,106 +33,4 @@
 }
 .portfolioSingle img:hover {
     border-bottom-color: $pink1;
-}
-
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600&subset=latin-ext');
-
-$main-color: #9191E9;
-
-
-
-.popup {
-    display: flex;
-    justify-content: center;
-    padding: 0 2% 0 2%;
-    position: fixed;
-    width: 100vw;
-    min-height: 100vh;
-    top: 0;
-    right: 0;
-    background-color: $darkBlue1;
-    z-index: 2;
-    visibility: hidden;
-    opacity: 0;
-    transition: .64s ;
-    &:target {
-        visibility: visible;
-        opacity: 1;
-    }
-    &__close {
-        color: $white1;
-        position: absolute;
-        top: 5%;
-        left: 5%;
-        font-size: 2em;
-
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
-        transition: 0.5s;
-    }
-    &__close:hover {
-        color: $pink1;
-    }
-}
-.popup img {
-    width: 100%;
-    margin: 10% 0 10% 0;
-    border: none !important;
-    @media all and (max-width: $break-1){
-        width: 80%;
-        margin-left: 10%;
-    }
-    @media all and (max-width: $break-2){
-        width: 80%;
-        margin-left: 10%;
-    }
-}
-.popupInner {
-    height: 100vh;
-    width: 96%;
-    overflow: auto;
-    padding: 2.5% 27.5% 50% 27.5%;
-    @media all and (max-width: $break-1){
-        padding: 2.5% 8% 50% 8%;
-        font-size: 0.7em;
-    }
-    @media all and (max-width: $break-2){
-        padding: 2.5% 8% 50% 8%;
-        font-size: 0.7em;
-    }
-}
-.popupHeadline {
-    text-align: center;
-    width: 100%;
-    margin-top: 0;
-    padding-top: 0;
-}
-.popupHeadline a {
-    font-size: 1.8em;
-    border-color: $pink1;
-    border-bottom-style: solid;
-    border-width: 6px;
-    color: $white1;
-
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-.popupHeadline a:hover {
-    border-color: $white1;
-    color: $pink1;
-}
-.popupInner h3 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    font-size: 1.6em;
-}
-.popupInner p {
-    padding-top: 0;
-    margin-top: 0;
 }

@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600&subset=latin-ext");
 html {
   font-family: "Ubuntu", sans-serif;
 }
@@ -26,6 +25,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #F1F1F1;
 }
 
 a:focus {
@@ -36,6 +36,14 @@ a:focus {
   color: #CC0052;
 }
 
+.text--blue {
+  color: #2274FF;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
 p {
   line-height: 1.5em;
   letter-spacing: 1px;
@@ -43,6 +51,28 @@ p {
 
 .align-right {
   text-align: right !important;
+}
+
+.anchor {
+  border-bottom-style: solid;
+  border-color: #CC0052;
+  padding: 3px;
+  font-size: 1.2em;
+  color: #F1F1F1;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.anchor:hover {
+  color: #CC0052;
+  border-color: #F1F1F1;
+}
+
+.h2--MarginTop {
+  margin-top: 0;
 }
 
 .wallpaper {
@@ -87,14 +117,14 @@ p {
 }
 
 .wallpaperContent h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .wallpaperAnchor {
   border-bottom-style: solid;
   border-color: #CC0052;
   padding: 1%;
-  font-size: 1.3em;
+  font-size: 1.2em;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
@@ -118,7 +148,7 @@ p {
 }
 @media all and (max-width: 768px) {
   .navigation {
-    padding: 5% 10% 0 1 0%;
+    padding: 5% 10% 0 10%;
     text-align: center;
   }
 }
@@ -127,8 +157,8 @@ p {
   display: block;
   box-sizing: border-box;
   color: #F1F1F1;
-  font-size: 1.3em;
-  padding: 1% 5% 1% 5%;
+  font-size: 1.1em;
+  padding: 1% 3% 1% 3%;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
@@ -144,14 +174,14 @@ p {
 .navLink:hover {
   border-bottom-style: solid;
   border-color: #F1F1F1;
-  border-width: 6px;
+  border-width: 4px;
   color: #CC0052;
 }
 
 .activeNavLink {
   border-bottom-style: solid;
   border-color: #CC0052;
-  border-width: 6px;
+  border-width: 4px;
 }
 
 .mobileDisplayNavLink {
@@ -176,16 +206,31 @@ p {
 .sectionContent {
   padding: 4% 15% 4% 15%;
 }
+@media all and (max-width: 768px) {
+  .sectionContent {
+    padding: 4% 8% 4% 8%;
+  }
+}
 
 .sectionContent--dark {
   background-color: #13182d;
   color: #F1F1F1;
   padding-top: 0;
-  padding-bottom: 10%;
 }
 
 .sectionHeader h2 {
-  font-size: 2.5em;
+  font-size: 2em;
+}
+@media all and (max-width: 768px) {
+  .sectionHeader h2 {
+    font-size: 1.8em;
+  }
+}
+
+.sectionContent--light {
+  background-color: #F1F1F1;
+  color: Black;
+  padding-top: 4%;
 }
 
 i {
@@ -193,8 +238,8 @@ i {
 }
 
 .iconLink {
-  color: #2273FD;
-  padding: 1% 3% 1% 3%;
+  color: #2274FF;
+  padding: 1% 0 1% 0;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
@@ -234,13 +279,13 @@ i {
   margin-top: -40px;
   width: 100%;
   text-align: center;
-  color: #2273FD;
+  color: #2274FF;
 }
 
 .aboutMePersonal {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 5%;
 }
 @media all and (max-width: 768px) {
@@ -250,7 +295,7 @@ i {
 }
 
 .aboutMePersonal img {
-  width: 49%;
+  width: 40%;
   padding: 0 10% 0 10%;
 }
 @media all and (max-width: 768px) {
@@ -261,15 +306,12 @@ i {
 }
 
 .aboutMePersonal .aboutMePersonalContent {
-  width: 49%;
-  font-size: 1.2em;
-  margin: auto;
+  width: 50%;
 }
 @media all and (max-width: 768px) {
   .aboutMePersonal .aboutMePersonalContent {
     font-size: 1em;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
   }
 }
 
@@ -277,7 +319,12 @@ i {
   width: 100%;
   text-align: left;
   padding: 2% 0 2% 0;
-  font-size: 2em;
+  font-size: 1.8em;
+}
+@media all and (max-width: 768px) {
+  .aboutMeSkillsHeadline {
+    font-size: 1.6em;
+  }
 }
 
 .aboutMeSkillsContentWrapper {
@@ -291,7 +338,7 @@ i {
 }
 
 .aboutMeSkillsContent {
-  width: 60%;
+  width: 65%;
   height: auto;
   margin-top: auto;
   margin-bottom: auto;
@@ -303,7 +350,7 @@ i {
 }
 
 .aboutMeSkillsContentWrapper img {
-  width: 25%;
+  width: 20%;
   height: auto;
   margin-top: auto;
   margin-bottom: auto;
@@ -320,8 +367,8 @@ i {
 
 .mobileDisplayImage {
   display: none;
-  width: 25%;
-  margin-left: 35%;
+  width: 26% !important;
+  margin-left: 37%;
 }
 @media all and (max-width: 768px) {
   .mobileDisplayImage {
@@ -329,17 +376,24 @@ i {
   }
 }
 
+.aboutMeButtonWrapper {
+  width: 100%;
+  text-align: center;
+}
+
 .portfolioWrapper {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 2%;
   flex-wrap: wrap;
 }
 
 .portfolioSingle {
-  width: 47.5%;
-  margin-bottom: 5%;
+  width: 32%;
+  margin-bottom: 2%;
   display: block;
+  align-self: flex-start;
 }
 @media all and (max-width: 768px) {
   .portfolioSingle {
@@ -354,7 +408,7 @@ i {
   height: auto;
   display: block;
   border-bottom-style: solid;
-  border-width: 6px;
+  border-width: 4px;
   border-color: #F1F1F1;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -367,119 +421,12 @@ i {
   border-bottom-color: #CC0052;
 }
 
-.popup {
-  display: flex;
-  justify-content: center;
-  padding: 0 2% 0 2%;
-  position: fixed;
-  width: 100vw;
-  min-height: 100vh;
-  top: 0;
-  right: 0;
-  background-color: #0c0f1f;
-  z-index: 2;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.64s;
-}
-.popup:target {
-  visibility: visible;
-  opacity: 1;
-}
-.popup__close {
-  color: #F1F1F1;
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  font-size: 2em;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.popup__close:hover {
-  color: #CC0052;
-}
-
-.popup img {
-  width: 100%;
-  margin: 10% 0 10% 0;
-  border: none !important;
-}
-@media all and (max-width: 768px) {
-  .popup img {
-    width: 80%;
-    margin-left: 10%;
-  }
-}
-@media all and (max-width: 1170px) {
-  .popup img {
-    width: 80%;
-    margin-left: 10%;
-  }
-}
-
-.popupInner {
-  height: 100vh;
-  width: 96%;
-  overflow: auto;
-  padding: 2.5% 27.5% 50% 27.5%;
-}
-@media all and (max-width: 768px) {
-  .popupInner {
-    padding: 2.5% 8% 50% 8%;
-    font-size: 0.7em;
-  }
-}
-@media all and (max-width: 1170px) {
-  .popupInner {
-    padding: 2.5% 8% 50% 8%;
-    font-size: 0.7em;
-  }
-}
-
-.popupHeadline {
-  text-align: center;
-  width: 100%;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.popupHeadline a {
-  font-size: 1.8em;
-  border-color: #CC0052;
-  border-bottom-style: solid;
-  border-width: 6px;
-  color: #F1F1F1;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.popupHeadline a:hover {
-  border-color: #F1F1F1;
-  color: #CC0052;
-}
-
-.popupInner h3 {
-  padding-bottom: 0;
-  margin-bottom: 0;
-  font-size: 1.6em;
-}
-
-.popupInner p {
-  padding-top: 0;
-  margin-top: 0;
-}
-
 .contactForm {
   width: 100%;
   font-family: "Ubuntu", sans-serif;
   padding: 0 20% 0 20%;
   text-align: right;
+  margin-bottom: 6%;
 }
 @media all and (max-width: 768px) {
   .contactForm {
@@ -495,23 +442,28 @@ i {
 .contactForm input {
   width: 100%;
   margin-bottom: 3%;
-  padding: 2%;
+  padding: 1.5%;
   font-family: "Ubuntu", sans-serif;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: solid;
   border-color: #F1F1F1;
-  border-width: 6px;
+  border-width: 4px;
   background-color: #13182d;
   color: #F1F1F1;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.1em;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+@media all and (max-width: 768px) {
+  .contactForm input {
+    margin-bottom: 6%;
+  }
 }
 
 .contactForm input:focus {
@@ -520,12 +472,17 @@ i {
 }
 
 .contactSubmit {
-  width: 30% !important;
+  width: 20% !important;
   border-color: #CC0052 !important;
+}
+@media all and (max-width: 768px) {
+  .contactSubmit {
+    width: 30% !important;
+  }
 }
 
 .contactSubmit:hover {
-  width: 30% !important;
+  width: 20% !important;
   border-color: #F1F1F1 !important;
   color: #CC0052 !important;
   cursor: pointer;
@@ -535,13 +492,248 @@ i {
   color: #F1F1F1;
   text-align: center;
   padding: 4% 0 4% 0;
-  margin-top: 4%;
+  margin-top: 12%;
+  width: 100%;
 }
 
 .contactIcons {
   width: 100%;
   display: flex;
+  gap: 5%;
+  justify-content: flex-start;
+}
+
+.contactProfile {
+  width: 100%;
+  margin-bottom: 4%;
+  display: flex;
   justify-content: center;
+}
+@media all and (max-width: 768px) {
+  .contactProfile {
+    display: block;
+  }
+}
+
+.profileImage {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media all and (max-width: 768px) {
+  .profileImage {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+}
+
+.profileContent {
+  width: max-content;
+  padding-left: 8%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media all and (max-width: 768px) {
+  .profileContent {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .profileContentTop {
+    display: none;
+  }
+}
+
+.mobileDisplayProfile {
+  display: none;
+  font-size: 0.9em;
+}
+@media all and (max-width: 768px) {
+  .mobileDisplayProfile {
+    display: block;
+  }
+}
+
+.caseStudyHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 8%;
+}
+@media all and (max-width: 768px) {
+  .caseStudyHeaderWrapper {
+    display: block;
+  }
+}
+
+.caseStudyHeader {
+  width: 30%;
+  line-height: 1.5em;
+  margin-top: 0;
+}
+@media all and (max-width: 768px) {
+  .caseStudyHeader {
+    width: 100%;
+  }
+}
+
+.caseStudyHeader div {
+  width: 100%;
+  text-align: left;
+  padding: 0 0 0 0;
+}
+
+.caseStudyHeader i {
+  color: #2274FF;
+}
+
+.singleProjectHeaderImageWrapper {
+  width: 65%;
+  height: auto;
+  margin-top: 0;
+}
+@media all and (max-width: 768px) {
+  .singleProjectHeaderImageWrapper {
+    width: 100%;
+    margin-top: 8%;
+  }
+}
+
+.singleProjectHeaderImage {
+  width: 100%;
+  height: auto;
+}
+
+.caseStudyTechnology {
+  width: 100%;
+  padding: 0 0 0 8%;
+  display: block;
+}
+
+.caseStudyTechnology i {
+  min-width: 12%;
+  text-align: center;
+}
+
+.caseStudyAbout {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 8%;
+}
+@media all and (max-width: 768px) {
+  .caseStudyAbout {
+    display: block;
+  }
+}
+
+.caseStudyAboutContent {
+  width: 50%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media all and (max-width: 768px) {
+  .caseStudyAboutContent {
+    width: 100%;
+  }
+}
+
+.caseStudyAboutImage {
+  width: 35%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media all and (max-width: 768px) {
+  .caseStudyAboutImage {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+.caseStudySeminarProfile {
+  width: 25%;
+}
+@media all and (max-width: 768px) {
+  .caseStudySeminarProfile {
+    width: 30%;
+    margin-left: 35%;
+  }
+}
+
+.caseStudySeminarProfileContent {
+  width: 60%;
+}
+@media all and (max-width: 768px) {
+  .caseStudySeminarProfileContent {
+    width: 100%;
+  }
+}
+
+.lightHeading {
+  color: #CC0052;
+}
+
+.cvTable {
+  width: 100%;
+}
+
+.cvTable tr {
+  width: 100%;
+}
+@media all and (max-width: 768px) {
+  .cvTable tr {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+  }
+}
+
+.mobileTr {
+  display: table-row;
+}
+@media all and (max-width: 768px) {
+  .mobileTr {
+    display: none !important;
+  }
+}
+
+.mobileTrHr {
+  display: none;
+}
+@media all and (max-width: 768px) {
+  .mobileTrHr {
+    display: block;
+  }
+}
+
+.cvTable td {
+  padding: 0.5%;
+}
+
+.cvTable .question {
+  width: 20%;
+}
+@media all and (max-width: 768px) {
+  .cvTable .question {
+    width: 100%;
+    font-weight: bold !important;
+  }
+}
+
+.cvTable .answer {
+  width: 80%;
+}
+@media all and (max-width: 768px) {
+  .cvTable .answer {
+    width: 100%;
+    font-weight: normal !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
